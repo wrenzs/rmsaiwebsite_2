@@ -14,7 +14,7 @@ body{
 
 .site-header{position:sticky;top:0;z-index:40;background:transparent;padding:.6rem 0;}
 .header-inner{display:flex;align-items:center;justify-content:space-between;}
-.brand{font-weight:700;color:var(--text);text-decoration:none;font-size:1.05rem}
+.brand{font-weight:700;color:var(--text);text-decoration:none;font-size:1.50rem}
 .site-nav{display:flex;align-items:center;gap:.5rem}
 .site-nav .nav-link{color:var(--muted);text-decoration:none;padding:.45rem .6rem;border-radius:8px}
 .site-nav .nav-link.active,.site-nav .nav-link:hover{color:var(--text);background:rgba(0,0,0,0.04)}
@@ -100,4 +100,12 @@ body{
 body.dark{
   --bg:#061021; --panel:#0f1724; --text:#e6eef8; --muted:#9aa7bf;
   --accent:#2b9bff; --accent-2:#1e6fb8;
+}
+
+/* CSS */
+.ai-superscript {
+  font-size: 0.7em;    /* Slightly smaller than the main text */
+  vertical-align: super; /* Ensures proper superscript positioning */
+  font-weight: 700;    /* Makes it bold, optional */
+  color: #4caf50;      /* A green color to make it stand out, optional */
 }
